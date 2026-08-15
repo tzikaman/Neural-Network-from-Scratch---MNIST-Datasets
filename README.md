@@ -29,10 +29,29 @@ The project is organized into three sections within a single notebook:
 
 ## Results
 
-- **Fashion-MNIST Test accuracy:** 85%
-- conf matrix
-- **MNIST (plain) Test accuracy:** 95%
-- conf matrix
+- **Fashion-MNIST Test accuracy:** ~85%
+<p align="center">
+  <img src="figs/confusion_matrix.png" width="400" title="Confusion Matrix">
+</p>
+
+<p align="center">
+  <img src="figs/accuracy_curve.png" width="400" title="Accuracy Curve">
+</p>
+
+<p align="center">
+  <img src="figs/loss_curve.png" width="400" title="Loss Curve">
+</p>
+
+<!-- <table align="center">
+  <tr>
+    <td><img src="figs/loss_curve.png" width="400" title="Loss"></td>
+    <td><img src="figs/accuracy_curve.png" width="400" title="Accuracy"></td>
+  </tr>
+</table> -->
+<!-- ![Confusion matrix](figs/confusion_matrix.png)
+![Accuracy curve](figs/accuracy_curve.png)
+![Loss curve](figs/loss_curve.png) -->
+- **MNIST (plain) Test accuracy:** ~95%
 
 ## How to Run
 
